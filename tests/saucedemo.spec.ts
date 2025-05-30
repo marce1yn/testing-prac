@@ -33,6 +33,6 @@ test('compras', async ({ page }) => {
     const itemDesc = await item.locator('.inventory_item_desc').innerText();
     console.log('Description: '+itemDesc);
 
-    await page.pause();
+    // await page.pause();
     //testing new changes
 })
